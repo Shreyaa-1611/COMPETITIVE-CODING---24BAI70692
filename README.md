@@ -125,7 +125,7 @@ The problems are based on **LeetCode** and have been implemented as part of the 
 
 ## 👩‍💻 Author
 
-**Shreya Vatsa**
+**Shreya Mishra**
 
 B.E. Computer Science Engineering (AI & ML)
 
