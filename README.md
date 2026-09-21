@@ -58,6 +58,9 @@ Competitive-Coding-CC-II/
 ├── 08_Mathematical_Problems/
 │   └── 258_Add_Digits/
 │
+├── 09_Dynamic_Programming/
+│   └── 03_1_Frog_Jump_with_K_Distance/
+│
 ├── Screenshots/
 │
 ├── README.md
@@ -87,6 +90,44 @@ Competitive-Coding-CC-II/
 | 15 | #285 | Inorder Successor in BST | Binary Search Trees |
 | 16 | #258 | Add Digits | Mathematics |
 | 17 | #257 | Binary Tree Paths | Binary Trees |
+
+---
+
+## 🧪 Additional Lab Experiments
+
+### Experiment 3.1 — Frog Jump with K Distance
+
+**Subject Name & Code:** CC-II (24CSP-339)
+
+**Experiment:** 3.1 — Frog Jump with K Distance
+
+**Problem:** 2
+
+**Difficulty:** Easy
+
+**Topics:** Dynamic Programming • 1-D DP • Memoization
+
+#### 📌 Problem Statement
+
+A frog stands on stone `0` of an array of `n` stones, each with a given height. From any stone `i`, the frog may jump to one of the next `k` stones, paying a cost equal to the height difference. Find the minimum total cost for the frog to reach the last stone.
+
+- From stone `i`, the frog can jump to stone `i+1`, `i+2`, ..., up to stone `i+k` when they exist.
+- The cost of a single jump from `i` to `j` is `|height[i] - height[j]|`.
+- The goal is to minimise the total cost required to reach the last stone.
+
+#### 🧠 Concepts Covered
+
+- Dynamic Programming
+- 1-D Dynamic Programming
+- Memoization
+- Recursion
+- Minimum Cost Path
+- Array Traversal
+- State Transition
+
+#### 🎯 Objective
+
+To determine the minimum possible cost for the frog to reach the last stone while being allowed to jump a maximum of `k` stones at a time.
 
 ---
 
@@ -146,6 +187,14 @@ Competitive-Coding-CC-II/
 - Inorder Traversal
 - Inorder Successor
 
+### 🔹 Dynamic Programming
+- 1-D Dynamic Programming
+- Memoization
+- Minimum Cost Problems
+- Recursive DP
+- State Transitions
+- Frog Jump Problems
+
 ### 🔹 Mathematics
 - Digit Manipulation
 - Digital Root
@@ -169,6 +218,7 @@ Competitive-Coding-CC-II/
 - Analyze and optimize time and space complexity.
 - Develop strong coding fundamentals for technical interviews.
 - Gain hands-on experience with common DSA patterns.
+- Apply Dynamic Programming and Memoization to optimization problems.
 
 ---
 
@@ -177,6 +227,10 @@ Competitive-Coding-CC-II/
 Each problem is approached progressively:
 
 **Problem Understanding → Brute Force → Optimization → LeetCode Optimal Solution → Complexity Analysis → Testing**
+
+For Dynamic Programming problems such as **Frog Jump with K Distance**, the approach follows:
+
+**Problem Understanding → Recursive Solution → Memoization → Complexity Optimization**
 
 This helps in understanding not only **how to solve a problem**, but also **how to improve an initially working solution**.
 
@@ -209,6 +263,8 @@ Problem_Name/
 └── README.md
 
 The solutions are designed to demonstrate both **learning-oriented implementations** and **LeetCode-compatible solutions**.
+
+For additional lab experiments such as **Frog Jump with K Distance**, the folder contains the corresponding Dynamic Programming implementation and explanation.
 
 ---
 
@@ -249,6 +305,8 @@ Special attention is given to cases such as:
 - Cyclic linked lists
 - Boundary values
 - No-solution cases
+- Different values of `k` in Dynamic Programming problems
+- Minimum and maximum jump distances
 
 ---
 
@@ -268,6 +326,9 @@ This repository covers several commonly used competitive programming patterns:
 | Backtracking | #39, #78 |
 | Tree Traversal | #236, #257, #285 |
 | BST Properties | #285 |
+| Dynamic Programming | Frog Jump with K Distance |
+| Memoization | Frog Jump with K Distance |
+| Minimum Cost Optimization | Frog Jump with K Distance |
 | Mathematical Optimization | #258 |
 
 ---
@@ -282,6 +343,8 @@ By completing these experiments, the following skills are developed:
 - Understanding recursion and backtracking.
 - Working with linked lists and binary trees.
 - Applying binary search and pointer-based techniques.
+- Understanding Dynamic Programming and Memoization.
+- Solving minimum-cost optimization problems.
 - Analyzing algorithmic complexity.
 - Writing clean and modular Python code.
 - Developing competitive programming and technical interview skills.
@@ -302,7 +365,7 @@ If you find an issue or have a better approach, feel free to open an issue or su
 
 The problems are based on **LeetCode** and have been implemented as part of the **Competitive Coding (CC-II)** laboratory coursework at Chandigarh University.
 
-Special thanks to the faculty and course curriculum for providing hands-on practice with Data Structures, Algorithms, and competitive programming concepts.
+Special thanks to the faculty and course curriculum for providing hands-on practice with Data Structures, Algorithms, Dynamic Programming, and competitive programming concepts.
 
 ---
 
